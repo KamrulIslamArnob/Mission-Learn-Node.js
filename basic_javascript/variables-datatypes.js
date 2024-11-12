@@ -20,6 +20,9 @@ name1 = "Limon"
 console.log(name) 
 
 
+/// update
+
+
 //age = 22
 
 //Uncaught TypeError: Assignment to constant variable.
