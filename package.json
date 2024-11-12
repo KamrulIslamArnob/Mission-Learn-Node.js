@@ -1,0 +1,19 @@
+{
+  "name": "15-days-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "js",
+    "javascript",
+    "npm",
+    "node.js"
+  ],
+  "author": "Kaium Al Limon",
+  "license": "ISC",
+  "description": ""
+}
