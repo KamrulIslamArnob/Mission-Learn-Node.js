@@ -19,8 +19,6 @@ name = "Limon"
 console.log(name) // Limon
 
 
-/ false
-
 
 // age = 24
 
