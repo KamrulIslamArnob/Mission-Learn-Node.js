@@ -3,6 +3,14 @@ const server = require('./node-core/http_module');
 const filePath = require('./node-core/path_module');
 const myUrl = require('./node-core/url_module');
 const expressServer = require('./express/express_framework');  
+const dotenv = require('dotenv');
+
+
+// load env variables
+dotenv.config();
+
+// get port from env or use 3000
+const port = process.env.PORT || 3000; 
 
 // read file
 // readFile('./node-core/example.txt');
