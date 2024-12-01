@@ -82,4 +82,49 @@ the next digits (3,4,50) means it will add 3,4 and 50 from index 2 onwards
 hence the output will be [1, 2, 3, 4, 50]   
 */
 
+console.log("for each ");
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+arr.forEach(function (element) {
+    console.log(element+1);
+});
+
+console.log("for of " + arr
+);
+
+//so it didnt change the array, so we use array map method
+
+var newarr = arr.map(function (element) {
+    return element + 1;
+});
+
+console.log("new array " + newarr);
+
+
+/* array map method is used to create a new array with the results of
+calling a provided function on every element in the calling array. */
+
+
+// array filter method
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var temparr = arr.filter(function (element) {
+    return element % 2 == 0;
+});
+
+console.log("filtered array " + temparr);
+
+// array find method
+//if the condition of find satisfy in the first element, it will return that element and will not check for the rest of the elements
+
+var temparr = arr.find(function (element) {
+    return element % 2 == 0;
+});
+
+console.log("find method " + temparr);
+
+// array index off method
+
+console.log(arr.indexOf(1));
+
 

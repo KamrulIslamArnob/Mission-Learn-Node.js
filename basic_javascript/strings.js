@@ -6,8 +6,11 @@ let str2 = "World"
 
 // string concatenation
 
+//let greeting1 = str + str2
+//console.log(greeting1) 
 let greeting = str + ' ' + str2
 console.log(greeting) // Hello World
+
 
 
 // ES6 template literals
@@ -60,6 +63,12 @@ let str6 = num1.toString()
 console.log(str6) // 20
 console.log(typeof str6) // string
 
+
+// typecasting to string using addition operator:
+
+let str55 = 10 + String(num)
+console.log(str55) // 10
+console.log(typeof str55) // 10
 
 let num2 = 30
 let str7 = num2 + ''
